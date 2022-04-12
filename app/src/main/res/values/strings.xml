@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tlessbell</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="akun_toolbar">Akun</string>
+    <string name="beranda_toolbar">Beranda</string>
+    <string name="riwayat_toolbar">Riwayat</string>
+</resources>
