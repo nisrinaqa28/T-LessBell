@@ -24,4 +24,228 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0F0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ringkasanAkun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/isiRingkasanAkun">
+                    <TextView
+                        android:id="@+id/namaPengguna"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Pengguna"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/signika_negative_semi_bold"
+                        android:textColor="@color/black"
+                        android:layout_alignParentTop="true"/>
+
+                    <TextView
+                        android:id="@+id/idAlat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Id Alat: XXXX"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/signika_negative_semi_bold"
+                        android:textColor="@color/black"
+                        android:layout_below="@+id/namaPengguna"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iconEdit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/outline_edit_24" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pengaturan"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/signika_negative"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:id="@+id/pengaturanKalimatPesan">
+
+                <ImageView
+                    android:id="@+id/ikonPengaturanKalimat"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/carbon_task_settings" />
+
+                <TextView
+                    android:id="@+id/judulPengaturanKalimat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/ikonPengaturanKalimat"
+                    android:fontFamily="@font/signika_negative_semi_bold"
+                    android:text="Pengaturan Kalimat Pesan"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/kostumisasiTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kostumisasi pesan pilihan anda"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/signika_negative"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/judulPengaturanKalimat"
+                    android:layout_toEndOf="@+id/ikonPengaturanKalimat"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="12dp"
+                android:id="@+id/keamananAkun">
+
+                <ImageView
+                    android:id="@+id/ikonKeamananAkun"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/clarity_lock_line"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/judulKeamananAkun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/ikonKeamananAkun"
+                    android:fontFamily="@font/signika_negative_semi_bold"
+                    android:text="Keamanan Akun"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/kostumisasiTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/judulKeamananAkun"
+                    android:layout_toEndOf="@+id/ikonKeamananAkun"
+                    android:fontFamily="@font/signika_negative"
+                    android:text="Ubah kata sandi"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:id="@+id/tentangKami">
+
+                <ImageView
+                    android:id="@+id/ikonTentangKami"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/outline_info_24"/>
+
+                <TextView
+                    android:id="@+id/judulTentangKami"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/ikonTentangKami"
+                    android:fontFamily="@font/signika_negative_semi_bold"
+                    android:text="Tentang Kami"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="12dp"
+                android:id="@+id/signOut">
+
+                <ImageView
+                    android:id="@+id/ikonSignOut"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/outline_logout_24"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/judulSignOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/ikonSignOut"
+                    android:fontFamily="@font/signika_negative_semi_bold"
+                    android:text="Keluar Akun"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </LinearLayout>

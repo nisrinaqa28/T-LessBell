@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformasiAkunActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/biru_soft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ikonBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Informasi Akun"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/signika_negative"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/judulNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/signika_negative_semi_bold"
+                android:text="Nama"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/isiNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengguna"
+                android:textSize="18sp"
+                android:fontFamily="@font/signika_negative"
+                android:textColor="@color/black"
+                android:layout_below="@+id/judulNama"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Ubah"
+                android:textSize="16sp"
+                android:fontFamily="@font/signika_negative_semi_bold"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/judulIdAlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id Alat"
+                android:textSize="16sp"
+                android:fontFamily="@font/signika_negative_semi_bold"
+                android:textColor="@color/black"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/isiNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxxx"
+                android:textSize="18sp"
+                android:fontFamily="@font/signika_negative"
+                android:textColor="@color/black"
+                android:layout_below="@+id/judulIdAlat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Ubah"
+                android:textSize="16sp"
+                android:fontFamily="@font/signika_negative_semi_bold"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/judulEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"
+                android:fontFamily="@font/signika_negative_semi_bold"
+                android:textColor="@color/black"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/isiNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengguna@gmail.com"
+                android:textSize="18sp"
+                android:fontFamily="@font/signika_negative"
+                android:textColor="@color/black"
+                android:layout_below="@+id/judulEmail"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Ubah"
+                android:textSize="16sp"
+                android:fontFamily="@font/signika_negative_semi_bold"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+  </LinearLayout>

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tlessbell">
         <activity
+            android:name=".UbahIdAlatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbahNamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InformasiAkunActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
