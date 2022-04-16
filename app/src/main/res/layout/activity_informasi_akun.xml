@@ -71,11 +71,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="Ubah"
-                android:textSize="16sp"
+                android:layout_centerVertical="true"
                 android:fontFamily="@font/signika_negative_semi_bold"
+                android:text="Ubah"
                 android:textColor="@color/black"
-                android:layout_centerVertical="true"/>
+                android:textSize="16sp" />
 
         </RelativeLayout>
 

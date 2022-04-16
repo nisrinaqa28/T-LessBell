@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tlessbell">
         <activity
+            android:name=".KonfirmasiUbahPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbahPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbahKalimatPesanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahKalimatPesanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengaturanKalimatPesanActivity"
+            android:exported="false" />
+        <activity
             android:name=".UbahIdAlatActivity"
             android:exported="false" />
         <activity

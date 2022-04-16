@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UbahKalimatPesanActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/biru_soft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ikonBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/signika_negative"
+                android:gravity="center"
+                android:text="Ubah Kalimat Pesan"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/ikonSimpan"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/icon_hapus"
+                android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/inputKalimatPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:fontFamily="@font/signika_negative"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="top"
+        android:minHeight="550dp"
+        android:text="Tolong taruh paket di depan pintu."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:text="Pesan dibatasi hingga 80 karakter"
+        android:textColor="#9999"
+        android:fontFamily="@font/signika_negative"
+        android:textSize="15sp"/>
+
+    <ImageButton
+        android:id="@+id/buttonSimpan"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:onClick="simpanKalimatBaru"
+        android:background="@drawable/button_simpan"
+        android:layout_marginVertical="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

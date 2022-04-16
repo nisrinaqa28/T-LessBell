@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.126" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/daftar_kalimat_border.xml" value="0.1195" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.126" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.126" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.126" />
@@ -17,14 +18,21 @@
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/outline_edit_24.xml" value="0.126" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/outline_info_24.xml" value="0.126" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/outline_logout_24.xml" value="0.126" />
-        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_informasi_akun.xml" value="0.33" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/drawable/sub_daftar_kalimat_pesan_border.xml" value="0.18" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_informasi_akun.xml" value="0.22" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_konfirmasi_ubah_password.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_pengaturan_kalimat_pesan.xml" value="0.39546858908341914" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_tambah_kalimat_pesan.xml" value="0.22" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_ubah_id_alat.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_ubah_kalimat_pesan.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_ubah_nama.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/activity_ubah_password.xml" value="0.2" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/fragment_akun.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/fragment_beranda.xml" value="0.15185185185185185" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/fragment_riwayat.xml" value="0.33" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/fragment_riwayat.xml" value="0.18" />
+        <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/layout/item_kalimat_pesan.xml" value="0.4538558786346397" />
         <entry key="..\:/Kuliah/Semester 6/Proyek 6/tlessbell/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
       </map>
     </option>
