@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tlessbell">
         <activity
+            android:name=".UbahEmailBaruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbahEmailActivity"
+            android:exported="false" />
+        <activity
             android:name=".KonfirmasiUbahPasswordActivity"
             android:exported="false" />
         <activity
