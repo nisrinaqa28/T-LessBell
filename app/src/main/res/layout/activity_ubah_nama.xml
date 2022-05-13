@@ -64,7 +64,7 @@
                 android:inputType="text"
                 android:fontFamily="@font/signika_negative"
                 android:background="@color/white"
-                android:textColor="#99999"
+                android:textColor="#A6A6A6"
                 android:textSize="18sp"/>
 
         </com.google.android.material.textfield.TextInputLayout>

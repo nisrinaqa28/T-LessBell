@@ -50,7 +50,7 @@
             android:gravity="center"
             android:layout_margin="15dp"/>
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
@@ -60,27 +60,29 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvKalimatPesan"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"/>
 
             <RelativeLayout
                 android:id="@+id/tambahKalimatPesanBaru"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
-                android:layout_marginBottom="5dp">
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_below="@+id/rvKalimatPesan">
+
                 <TextView
-                    android:id="@+id/tambahKalimatPesanTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tambah Kalimat Pesan Baru"
-                    android:textSize="16sp"
-                    android:fontFamily="@font/signika_negative"
-                    android:textColor="#547CC6"
                     android:layout_alignParentTop="true"
-                    android:layout_centerVertical="true"/>
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/signika_negative"
+                    android:text="Tambah Kalimat Pesan Baru"
+                    android:textColor="#547CC6"
+                    android:textSize="16sp" />
 
                 <ImageView
-                    android:id="@+id/iconTambah"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_alignParentEnd="true"
@@ -89,7 +91,7 @@
 
             </RelativeLayout>
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <TextView
             android:layout_width="match_parent"

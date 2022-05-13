@@ -34,7 +34,7 @@
                 android:textSize="25sp"
                 android:textStyle="bold" />
             <ImageView
-                android:id="@+id/ikonSimpan"
+                android:id="@+id/ikonHapus"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_alignParentEnd="true"

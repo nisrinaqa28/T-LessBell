@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1060386810789",
+    "firebase_url": "https://touchlessdoorbell-b0c7f-default-rtdb.firebaseio.com",
+    "project_id": "touchlessdoorbell-b0c7f",
+    "storage_bucket": "touchlessdoorbell-b0c7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060386810789:android:3ae198941d60301fd8164c",
+        "android_client_info": {
+          "package_name": "com.android.tlessbell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060386810789-aftccvp618nbv29al2a1lp43vbe8oku7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyjAXSKihs3whFH_hvMi8FONTR-sktDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060386810789-aftccvp618nbv29al2a1lp43vbe8oku7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

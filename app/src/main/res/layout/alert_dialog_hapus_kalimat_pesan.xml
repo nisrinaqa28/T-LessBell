@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="20dp"
     android:padding="20dp"
-    android:id="@+id/layoutDialogUbahPassword">
+    android:id="@+id/layoutDialogHapusKalimatPesan">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -17,10 +17,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/titleUbahPasswordDialog"
+            android:id="@+id/titleHapusPesanDialog"
             android:padding="10dp"
             android:background="@drawable/alert_dialog_title_background"
-            android:text="Password Anda Telah Diubah"
+            android:text="Hapus Kalimat Pesan"
             android:fontFamily="@font/signika_negative_semi_bold"
             android:textSize="18sp"
             android:textColor="@color/black"
@@ -30,27 +30,41 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/messageUbahPassword"
+            android:id="@+id/messageHapusPesan"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="40dp"
-            android:text="Aplikasi akan di restart"
+            android:text="Apakah Anda yakin ingin menghapus kalimat pesan ini?"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:fontFamily="@font/signika_negative"
             android:gravity="center_horizontal"
-            app:layout_constraintTop_toBottomOf="@+id/titleUbahPasswordDialog"/>
+            app:layout_constraintTop_toBottomOf="@+id/titleHapusPesanDialog"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonOk"
-            android:background="@drawable/button_ok"
+            android:id="@+id/buttonTidak"
+            android:background="@drawable/button_tidak"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/messageUbahPassword"
+            app:layout_constraintRight_toLeftOf="@+id/buttonYa"
+            app:layout_constraintTop_toBottomOf="@+id/messageHapusPesan"
+            android:layout_marginVertical="20dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonYa"
+            android:background="@drawable/button_ya"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTidak"
+            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="20dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
